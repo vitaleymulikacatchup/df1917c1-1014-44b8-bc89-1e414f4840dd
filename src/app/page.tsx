@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -13,7 +13,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, CheckCircle, Clock, DollarSign, Globe, HelpCircle, Package, Quote, Star, Train, Users, Zap } from 'lucide-react';
+import { Award, CheckCircle, Clock, DollarSign, Globe, HelpCircle, Linkedin, Mail, MessageCircle, Package, Phone, Quote, Star, Train, Users, Zap } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -236,11 +236,11 @@ export default function Home() {
               imageAlt: "Michael Chen, Operations Director",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
                 },
                 {
-                  icon: "Mail",
+                  icon: Mail,
                   url: "mailto:michael@cargotrans.com"
                 }
               ]
@@ -254,11 +254,11 @@ export default function Home() {
               imageAlt: "Sarah Rodriguez, Logistics Manager",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
                 },
                 {
-                  icon: "Phone",
+                  icon: Phone,
                   url: "tel:+1234567890"
                 }
               ]
@@ -272,11 +272,11 @@ export default function Home() {
               imageAlt: "David Kim, Customer Relations",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com"
                 },
                 {
-                  icon: "MessageCircle",
+                  icon: MessageCircle,
                   url: "https://cargotrans.com/chat"
                 }
               ]

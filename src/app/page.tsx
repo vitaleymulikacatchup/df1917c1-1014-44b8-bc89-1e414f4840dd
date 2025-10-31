@@ -36,7 +36,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroSplit
-          title="Global Cargo Train Export Solutions"
+          title="ggggrgrg"
           description="Reliable, efficient, and cost-effective freight transportation services across international borders. Your trusted partner for heavy cargo logistics."
           tag="Industry Leader"
           tagIcon={Train}
